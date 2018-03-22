@@ -1,0 +1,24 @@
+{
+  "name": "udemy-scrap",
+  "version": "1.0.0",
+  "description": "scrap data from udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suvojit mondal",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "csv": "^2.0.0",
+    "fast-csv": "^2.4.1",
+    "jsonfile": "^4.0.0",
+    "puppeteer": "^1.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "sleep": "^5.1.1",
+    "sync-request": "^6.0.0"
+  }
+}
