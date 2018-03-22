@@ -42,7 +42,8 @@ function getUdemyData(url) {
         })
         .catch(function (error) {
             // console.log(error);
-            reject(error)
+            // reject(error)
+            console.log('error');
         });
     });
 }
@@ -79,7 +80,7 @@ async function startScrape() {
         course['rating'] = rating;
         course['url'] = url;
         // console.log(course);
-        jsonfile.writeFileSync(file, course, {flag: 'a'})
+        jsonfile.writeFileSync(file, course, {flag: 'a'});
 
         sleep.sleep(2);
     }
